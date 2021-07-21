@@ -3,6 +3,7 @@ This repository contains python code for the simulations described in the paper 
 
 To carry out different types of simulations you can modify the definers located at the top of the code:
 
+```
 #economic agent variables
 ECON_AGENT_PWR          = 100  -> Power of the economic agent
 ECON_AGENT_ALPHA        = 1.05 -> Alpha parameter for the economic agent in Q-learning
@@ -17,4 +18,5 @@ N_SCIENTISTS       = 100   -> Number of scientisits available
 PA                 = 0.55  -> Prior probability of scientists carrying out a successful experiment
 SIM_CYCLES         = 400   -> Number of simulation cycles per game
 NUM_GAMES          = 100   -> Number of games played
+```
 
