@@ -172,7 +172,7 @@ def main():
             if b["believe_b"].iloc[-1] == 100:
                 bb += 1
         
-        print "{},{}".format(s, 100*ba/num_games) 
+        print "STD_DEV {}, A PROBABILITY {}%".format(s, 100*ba/num_games) 
         #plt.title("Random Agent (std=0.2)")
         #plt.ylabel("Agents converged to A (%)")
         #plt.xlabel("Number of cycles")
