@@ -1,5 +1,7 @@
 # epistemic_diversity_RL
-This repository contains python code for the simulations described in the paper titled "Epistemic diversity and industrial selection bias"
+This repository contains python code for the simulations described in the paper titled "Epistemic diversity and industrial selection bias".
+
+The code will run simulations for standard deviation values in the 0 to 0.2 range in 0.005 steps. For every standard deviation value a given number of games with a given number of cycles will be played. On the paper, values were for 100 games with 400 cycles each. The overall probability of A being the concensus will be printed for each standard deviation value. 
 
 To carry out different types of simulations you can modify the definers located at the top of the code:
 
